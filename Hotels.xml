@@ -86,8 +86,6 @@
         <Rating>4.2</Rating>
     </Hotel>
 	
-	
-    
     <Hotel id="H7" chain="Marriott">
         <Name>Sheraton Phoenix Downtown</Name>
         <Phone>602-262-2500</Phone>
@@ -144,7 +142,7 @@
         <Rating>4.5</Rating>
     </Hotel>
     
-    <Hotel id="11">
+    <Hotel id="H11">
         <Name>Aloft Tempe</Name>
         <Phone>480-621-3300</Phone>
         <Address>
@@ -157,5 +155,6 @@
         </Address>
         <Rating>4.0</Rating>
     </Hotel>
+
 
 </Hotels>
