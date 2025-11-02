@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+    <!-- ERROR 1: Wrong root name - should be "Hotels" but is "Hotel" -->
+
+    <Hotel>
+        <!-- ERROR 2: Missing required attribute -->
+        
+        <!-- ERROR 5: Two Name elements -->
+        <Name>First Name</Name>
+        <Name>Second Name (Error)</Name>
+        
+        <Phone>123-4567</Phone>
+        <Address>
+            <Street>Street</Street>
+            <City>City</City>
+            <State>AZ</State>
+        <!-- ERROR 4: Missing closing </Address> tag -->
+        <Rating>4.0</Rating>
+    </Hotel>
+    
+    <Hotel id="H12">
+        <Name>Another Hotel</Name>
+        <!-- ERROR 3: Missing Phone element completely -->
+        <Address>
+            <Street>Street</Street>
+            <City>City</City>
+            <State>AZ</State>
+        </Address>
+    </Hotel>
+  
+</Hotel>
